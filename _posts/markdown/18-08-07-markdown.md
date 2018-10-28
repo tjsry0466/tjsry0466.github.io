@@ -8,15 +8,16 @@ comments: true
 <!----------------- 탬플릿
 ## forEach
 ### 설명
-[MDN]()
-### 문법
+[MDN](http://naver.com)
 ```javascript
 
 ```
-### 예시
-```javascript
-
-```
+<center>
+ <figure>
+ <img src="/assets/post-img/git/git_diff.png" alt="views">
+ <figcaption>cat을 통해서 git diff 결과를 표시</figcaption>
+ </figure>
+ </center>
 ------------------->
 ## func name
 
