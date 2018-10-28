@@ -46,7 +46,7 @@ nav:
     - { Django: '/blog/categories/#django' }
     - { python: '/blog/categories/#python' }
     - { MarkDown : '/blog/categories/#markDown' }
-    - { javascript: '/blog/categories/#javascript' }
+    - { JavaScript: '/blog/categories/#javascript' }
     - { Coding Guide: '/blog/categories/#codingguide' }
     - { jQuery: '/blog/categories/#jquery' }
     #- { MySQL: '/blog/categories/#MySQL' }
