@@ -56,6 +56,7 @@ nav:
     #- { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
     - { DataBase: '/blog/categories/#database' }
+    - { OS(operating system): '/blog/categories/#os'}
   About:
     - '/about/'
   Search:
