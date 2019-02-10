@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Django SPA 프로젝트 - 기본 API 서버 구성하기
+title: SPA 프로젝트 - Django API 서버 구성하기
 category: Django
 tags: [Django, API server, rest-framework]
 comments: true
