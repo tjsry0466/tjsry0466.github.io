@@ -94,11 +94,3 @@ urlpatterns = [
  <figcaption>rest framework list view</figcaption>
  </figure>
  </center>
-
- <center>
- <figure>
- <img src="/assets/post-img/django/admin1.png" alt="views">
- <figcaption>model object의 필드순서 조정</figcaption>
- </figure>
- </center>
-
