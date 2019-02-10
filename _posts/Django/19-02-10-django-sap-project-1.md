@@ -21,7 +21,7 @@ comments: true
 
 > django rest-framework로 API서버를 구성해보겠습니다.
 
-### django 프로젝트 생성
+## django 프로젝트 설치 및 설정
 
 ```shell
 # commend line
