@@ -57,11 +57,11 @@ SPA는 일반적인 MPA(multiple page application)와 달리 웹 페이지 전�
 
 ## 이번 프로젝트에서 다루게 될 내용
 
-- bootstrap으로 기본적인 게시판 디자인 구성
-- Django rest framework 를 통한 API 서버 구성
-- ubuntu 18.04 환경에서의 서버 환경 세팅 및 django와 vue 프로젝트 웹서버 연동
-- JWT 토큰을 이용한 인증 로직 구현
-- vue.js에서의 전역적인 JWT토큰 인증 관리 및 컴포넌트 구조 기획
+- `bootstrap`으로 기본적인 게시판 디자인 구성
+- `Django rest framework` 를 통한 `API 서버` 구성
+- ubuntu 18.04 환경에서의 `서버 환경 세팅` 및 `django와 vue 프로젝트 웹서버 연동`
+- `JWT 토큰`을 이용한 인증 로직 구현
+- `vue.js`에서의 전역적인 `JWT토큰 인증 관리` 및 `컴포넌트 구조 기획`
 
 ### `JWT 토큰`이란?
 
