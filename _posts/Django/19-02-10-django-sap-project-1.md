@@ -20,11 +20,11 @@ comments: true
 ------------------->
 
 > django rest-framework로 API서버를 구성해보겠습니다.
-> 장고의 튜토리얼에 나와있는 기본적인 내용은 담지 않았습니다.
+> 핵심적인 내용만 간추려 장고의 기본적인 내용은 담지 않았습니다.
 
 ## API 서버 구성
 
-### models.py
+## models.py
 ```python
 # spa/board/models.py
 from django.conf import settings
@@ -53,7 +53,7 @@ class Comment(models.Model):
         return self.post.title+': ' +self.comment # 게시물: 댓글
 ```
 
-### views.py
+## views.py
 ```python
 # spa/board/views.py
 from django.shortcuts import render
