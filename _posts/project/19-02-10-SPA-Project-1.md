@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Django - pystagram 기획
+title: SPA 게시판 프로젝트
 category: Project
-tags: [Django, pystagram]
+tags: [vue.js, django, API server]
 comments: true
 ---
 <!----------------- 탬플릿
@@ -19,4 +19,4 @@ comments: true
 ```
 ------------------->
 
-> [pystagram 만들기](https://blog.hannal.com/2014/8/start_with_django_webframework_01/) 를 참고하였습니다.
+> 개인 프로젝트입니다.
