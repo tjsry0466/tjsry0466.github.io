@@ -91,7 +91,14 @@ urlpatterns = [
 <center>
  <figure>
  <img src="..\..\assets\post-img\django\restframework_list.png" alt="views">
- <figcaption>rest framework list view</figcaption>
+ <figcaption>rest framework list view1</figcaption>
+ </figure>
+ </center>
+
+ <center>
+ <figure>
+ <img src="\assets\post-img\django\restframework_list.png" alt="views">
+ <figcaption>rest framework list view2</figcaption>
  </figure>
  </center>
 
