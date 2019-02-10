@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Django - pystagram 기획
-category: Django
+category: Project
 tags: [Django, pystagram]
 comments: true
 ---
