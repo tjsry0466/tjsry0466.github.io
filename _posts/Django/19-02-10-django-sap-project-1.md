@@ -25,7 +25,6 @@ comments: true
 ## API 서버 구성
 
 ### models.py
-
 ```python
 # spa/board/models.py
 from django.conf import settings
@@ -55,7 +54,6 @@ class Comment(models.Model):
 ```
 
 ### views.py
-
 ```python
 # spa/board/views.py
 from django.shortcuts import render
@@ -72,6 +70,7 @@ class CommentViewSet(viewsets.ModelViewSet):
     serializer_class = CommentSerializer
 ```
 
+## urls.py
 ```python
 # spa/board/urls.py
 from django.urls import path, include
