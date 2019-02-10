@@ -88,5 +88,10 @@ urlpatterns = [
 ```
 
 위와 같이 구성하고 개발서버를 실행하게되면 아래와같이 API서버를 구성할수 있게 됩니다.
-![](/assets/post-img/django/restframework_list.png)
+<center>
+ <figure>
+ <img src="..\..\assets\post-img\django\restframework_list.png" alt="views">
+ <figcaption>rest framework list view</figcaption>
+ </figure>
+ </center>
 
