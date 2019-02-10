@@ -24,6 +24,7 @@ comments: true
 ### django 프로젝트 생성
 
 ```shell
+# commend line
 >>> pip3 install django~=2.0.0
 >>> pip3 install django-rest-framework
 >>> django-admin startproject spa
