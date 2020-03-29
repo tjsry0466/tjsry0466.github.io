@@ -35,6 +35,9 @@ comments: true
 - 재사용 가능한 함수 또는 메서드 안에서 반복되는 코드들은 **리팩토링**을 해둔다.
 - 함수와 메서드는 **가능한 한 작은 크기**를 유지한다.
 
+
+
+
 # PEP8
 
 PEP8은 파이썬 공식 스타일 가이드이다.
@@ -46,7 +49,7 @@ PEP8은 파이썬 공식 스타일 가이드이다.
 - 오픈소스에서는 79컬럼 제약을 두고 프로그램을 작성하기도 한다.
 
 ## import
-pip8은 임포트(import)를 할 때 다음과 같은 순서로 그룹을 지을 것을 제안하고 있다.
+PEP8은 임포트(import)를 할 때 다음과 같은 순서로 그룹을 지을 것을 제안하고 있다.
 
 1. 표준 라이브러리 임포트
 2. 연관 외부 라이브러리 임포트
@@ -90,5 +93,4 @@ from .forms import WaffleConeForm
 from django.forms import CharField
 from django.db.models import CharField
 ```
-
 
