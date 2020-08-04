@@ -59,6 +59,7 @@ nav:
     # - { Tags: '/blog/tags/' }
     - { DataBase: '/blog/categories/#database' }
     - { OS(operating system): '/blog/categories/#os'}
+    - { Docker: '/blog/categories/#docker'}
   About:
     - '/about/'
   Search:
