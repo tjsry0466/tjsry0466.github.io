@@ -75,6 +75,7 @@ ListView.builder(
 3. ListView.separated
    - IndexWidgetBuilder에 itemBuilder에 필요에 따라 위젯이 생성되며 생성된 목록 사이에 구분선이 나타납니다.
    - ListView.separated는 고정된 수의 자식이 있는 목록보기에 적합합니다.
+
 ```dart
 final List<String> entries = <String>['A', 'B', 'C'];
 final List<int> colorCodes = <int>[600, 500, 100];
@@ -92,9 +93,11 @@ ListView.separated(
   separatorBuilder: (BuildContext context, int index) => const Divider(),
 );
 ```
-4. ListView.custom
+
+1. ListView.custom
    - SilverChildDelegate로 추가적으로 사용자 정의 기능을 제공합니다.
    - 예를들어 SilverChildDelegate는 실제로 표시되지 않는 자식의 크기를 추정하는 데 사용되는 알고리즘을 제어할 수 있습니다.
+
 ```dart
 CustomScrollView(
   shrinkWrap: true,
