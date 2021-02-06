@@ -115,10 +115,3 @@ CustomScrollView(
   ],
 )
 ```
-
-
-
-### listview을 사용할 때 주의할점
-위와 같이 index와 children을 넘겨주게되면 _screens[_selectedIndex]와 같이 _screens의 위젯을 참조하게 되는데 _screens에 static 옵션을 안주게되면 매번 _screens의 위젯을 새로 생성하여 화면을 그려주게됩니다.
-이를 방지하기 위해서는 꼭 widget List 변수에 static 옵션을 적용하여 작성하여야 합니다.
-
