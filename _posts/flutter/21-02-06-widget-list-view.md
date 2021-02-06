@@ -23,7 +23,7 @@ comments: true
 
 ### listview이란?
 
-listview는 어떤한 위젯들을 일렬로 나열하고 스크롤을 가능하게 해주는 위젯입니다.
+listview는 어떤한 위젯들을 일렬로 나열하고 `스크롤`을 가능하게 해주는 위젯입니다.
 
 ### listview 사용법
 
@@ -97,6 +97,7 @@ ListView.separated(
 1. ListView.custom
    - SilverChildDelegate로 추가적으로 사용자 정의 기능을 제공합니다.
    - 예를들어 SilverChildDelegate는 실제로 표시되지 않는 자식의 크기를 추정하는 데 사용되는 알고리즘을 제어할 수 있습니다.
+   - [참고자료](https://flutter.dev/docs/development/ui/advanced/slivers)
 
 ```dart
 CustomScrollView(
