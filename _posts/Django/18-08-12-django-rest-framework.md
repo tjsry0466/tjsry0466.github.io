@@ -8,7 +8,7 @@ comments: true
 <!----------------- 탬플릿
 ## forEach
 ### 설명
-[MDN]()
+[MDN](
 ### 문법
 ```javascript
 
