@@ -30,3 +30,8 @@ comments: true
 - AnimatedSwicher -> 위젯간 변경을 가능하게 해주는 위젯
 - FadeTransition -> 트랜지션 애니메이션을 할때 Fade효과를 줄수 있게 도와주는 위젯
 - 모든 컨트롤러는 dispose()를 해주어야 메모리를 잡아먹지 않음 !!
+- Scaffold의 ResizeToAvoidBottomInset -> 화면이 키보드에 의해 가려질때 위로 올려질수 있는지 없는지 !!! 기본값은 true
+- Text 위젯과 같이 alignment가없는경우 Align위젯을 Wrapping할수 있음
+- PageView - onPageChanged
+- InkWell - gestureDetector 같은거 .. ?
+- fittedBox - 차피할 공간을 정해주는 위젯?
