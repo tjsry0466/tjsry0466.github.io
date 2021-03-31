@@ -31,7 +31,7 @@ comments: true
 
 # 내가 짜본 풀이  소스
 
-```
+```python
 receivedMoney = int(input())
 
 def returnMoney(receivedMoney):
@@ -50,7 +50,7 @@ result
 
 # 정답 소스
 
-```
+```python
 n = 1260
 count = 0
 
