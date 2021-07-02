@@ -41,7 +41,7 @@ nav:
   Categories:
     - '/'
     # - { Categories All: '/blog/categories/' }
-    # - { 일기장: '/blog/categories/#일기장' }
+    - { 일기장: '/blog/categories/#일기장' }
     - { TIL (Today I Learned): '/blog/categories/#til' }
     - { Project : '/blog/categories/#project' }
     #- { 컴퓨터공학 : '/blog/categories/#컴퓨터공학' }
