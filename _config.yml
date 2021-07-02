@@ -32,7 +32,7 @@ author:
     facebook:  https://www.facebook.com/seonkyos
     # twitter:   https://twitter.com/Li_Zhihao
     # weibo:     http://weibo.com/41173780
-    email:    tjs0466@naver.com
+    email:    seonkyo0466@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
@@ -41,6 +41,7 @@ nav:
   Categories:
     - '/'
     # - { Categories All: '/blog/categories/' }
+    - { 일기장: '/blog/categories/#일기장' }
     - { TIL (Today I Learned): '/blog/categories/#til' }
     - { Project : '/blog/categories/#project' }
     #- { 컴퓨터공학 : '/blog/categories/#컴퓨터공학' }
