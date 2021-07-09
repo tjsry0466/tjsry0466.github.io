@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring Boot 구조 정리
-category: spring&sprint boot
+category: spring&spring boot
 tags: [spring, spring boot, 구조]
 comments: true
 ---
