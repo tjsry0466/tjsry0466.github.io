@@ -46,6 +46,7 @@ nav:
     - { Project : '/blog/categories/#project' }
     #- { 컴퓨터공학 : '/blog/categories/#컴퓨터공학' }
     - { Django: '/blog/categories/#django' }
+    - { Spring&Spring boot: '/blog/categories/#spring&spring boot' }
     - { DB : '/blog/categories/#DB' }
     - { python: '/blog/categories/#python' }
     - { vue.js : '/blog/categories/#vuejs' }
