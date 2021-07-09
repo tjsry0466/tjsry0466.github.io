@@ -52,11 +52,11 @@ comments: true
 - jpa 사용시 여러 어노테이션을 사용하여 테이블, 필드, 필드 옵션 등을 설정하게 됩니다.
 - domain 클래스에서 자주 사용되는 몇가지 어노테이션을 설명하도록 하겠습니다.
 
-@Entity - 테이블과 1:1로 맵핑되는 어노테이션으로 해당 어노테이션을 클래스에 붙이면 jpa가 해당 클래스를 관리하게 됩니다.
-@Column - 필드에 붙이는 어노테이션으로 해당 어노테이션을 붙이면 컬럼으로 인식하게 됩니다.
-@Id - PK를 지정하는 어노테이션 입니다.
-@GeneratedValue - pk가 중복되는것을 방지하기 위해 작성하는 어노테이션 입니다. strategy 파라미터로 GenerationType.IDENTITY를 주게되면 PK로 인식하여 Auto Increament로 설정됩니다.
-@Builder - Builder 패턴을 사용하기 위한 어노테이션 입니다. @Builder 어노테이션을 사용하게되면 객체를 생성할때 생성자를 통해서 객체를 생성하는게 아니라 도메인.builder().필드(값).필드(값).build(); 를 통해 필드에 대한 값을 좀더 명시적으로 넣어 줄 수 있습니다.
+- @Entity - 테이블과 1:1로 맵핑되는 어노테이션으로 해당 어노테이션을 클래스에 붙이면 jpa가 해당 클래스를 관리하게 됩니다.  
+- @Column - 필드에 붙이는 어노테이션으로 해당 어노테이션을 붙이면 컬럼으로 인식하게 됩니다.
+- @Id - PK를 지정하는 어노테이션 입니다.  
+- @GeneratedValue - pk가 중복되는것을 방지하기 위해 작성하는 어노테이션 입니다. strategy 파라미터로 GenerationType.IDENTITY를 주게되면 PK로 인식하여 Auto Increament로 설정됩니다.  
+- @Builder - Builder 패턴을 사용하기 위한 어노테이션 입니다. @Builder 어노테이션을 사용하게되면 객체를 생성할때 생성자를 통해서 객체를 생성하는게 아니라 도메인.builder().필드(값).필드(값).build(); 를 통해 필드에 대한 값을 좀더 명시적으로 넣어 줄 수 있습니다.
 
 ## Repository
 - repository는 DB에 접근하는 소스코드를 모아둔 Interface 입니다.
